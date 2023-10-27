@@ -1,3 +1,28 @@
 html {
   background-color: aliceblue;
 }
+
+.profilePicture {
+  width: 200px;
+  height: auto;
+}
+
+.icon {
+  width: 50px;
+  height: auto;
+}
+
+.tileImage {
+  width: 250px;
+  height: auto;
+}
+
+.miniIcon {
+  width: 20px;
+  height: auto;
+}
+
+.contactIcon {
+  width: 30px;
+  height: auto;
+}
