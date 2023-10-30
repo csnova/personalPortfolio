@@ -5,6 +5,7 @@
   --footer-background: #3bbeb4;
   --screen-background: #ffffff;
   --screen-background-dark: rgb(48, 48, 48);
+  --transparent-background: #3bbeb33a;
 }
 
 html {
@@ -36,6 +37,34 @@ header {
 
 .title {
   margin-left: 15px;
+}
+
+.iconLink {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconLink:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: none;
+  transition: all 0.3s linear;
+}
+
+.iconLink:hover:before {
+  background: var(--transparent-background);
+}
+
+.iconBar {
+  display: flex;
 }
 
 .icon {
