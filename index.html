@@ -8,203 +8,281 @@
   </head>
   <body>
     <header>
-      <h1>Chandler Nova</h1>
-
-      <img
-        src="./images/pexels-thisisengineering-3861958.jpg"
-        alt="Placeholder Image"
-        class="profilePicture"
-      />
-      <h2 class="title">About Me</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac
-        ante vel lectus mollis gravida. Phasellus eu ex vel orci tristique
-        pretium vel placerat quam. Nunc mi mauris, ultrices eu euismod sit amet,
-        vehicula eget justo. Donec gravida lacus quis metus feugiat tincidunt.
-        In vitae dolor elit. Vestibulum pulvinar accumsan scelerisque. Nullam
-        feugiat accumsan metus, nec scelerisque ipsum bibendum lacinia.
-        Suspendisse pellentesque ipsum a diam ultrices vulputate.
-      </p>
-      <a href="https://github.com/csnova" target="_blank"
-        ><img
-          src="./images/github-original.svg"
-          alt="Link to Github. Opens in New Tab"
-          class="icon"
-      /></a>
-      <a
-        href="https://www.linkedin.com/in/chandler-nova-288655298/"
-        target="_blank"
-        ><img
-          src="./images/linkedin-plain.svg"
-          alt="Link to Linkedin. Opens in New Tab"
-          class="icon"
-      /></a>
+      <div class="profilePictureBox">
+        <h1 class="name">Chandler Nova</h1>
+        <img
+          src="./images/pexels-thisisengineering-3861958-square.jpg"
+          alt="Placeholder Image"
+          class="profilePicture"
+        />
+      </div>
+      <div class="aboutMeBox">
+        <div class="aboutMeInfo">
+          <h2 class="title">About Me</h2>
+          <div class="aboutMeText">
+            <p>My name is Chandler Nova and I am a full stack developer.</p>
+            <p>
+              I spend the last 10 years teaching middle school science, math,
+              and technology. I learned so much about how people absorb and
+              understand complex ideas and wanted to bring that into the
+              business world.
+            </p>
+            <p>
+              I have spent much time trying to understand other peoples thought
+              processes and how best to present information to them.
+            </p>
+          </div>
+          <div class="iconBox">
+            <a href="https://github.com/csnova" target="_blank"
+              ><img
+                src="./images/github-original.svg"
+                alt="Link to Github. Opens in New Tab"
+                class="icon"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/chandler-nova-288655298/"
+              target="_blank"
+              ><img
+                src="./images/linkedin-plain.svg"
+                alt="Link to Linkedin. Opens in New Tab"
+                class="icon"
+            /></a>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main>
       <h2 class="title">My Work</h2>
 
-      <div class="projectTile">
-        <img src="./images/battleship.png" alt="" class="tileImage" />
-        <h3 class="subTitle">battleship</h3>
-        <a href="https://github.com/csnova/battleship" target="_blank"
-          ><img
-            src="./images/github-original.svg"
-            alt="Link to Battleship Github. Opens in New Tab"
-            class="miniIcon"
-        /></a>
-        <a href="https://csnova.github.io/battleship/" target="_blank"
-          ><img
-            src="./images/open-in-new.svg"
-            alt="Link to Battleship Website. Opens in New Tab"
-            class="miniIcon"
-        /></a>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          ac ante vel lectus mollis gravida. Phasellus eu ex vel orci tristique
-          pretium vel placerat quam.
-        </p>
-      </div>
+      <div class="tileBox">
+        <div class="projectTile">
+          <img src="./images/toDoList.png" alt="" class="tileImage" />
+          <div class="tileInfo">
+            <div class="tileBar">
+              <h3 class="subTitle">To Do List</h3>
+              <div class="iconBar">
+                <a href="https://github.com/csnova/toDoList" target="_blank"
+                  ><img
+                    src="./images/github-original.svg"
+                    alt="Link to to do list Github. Opens in New Tab"
+                    class="miniIcon"
+                /></a>
+                <a href="https://csnova.github.io/toDoList/" target="_blank"
+                  ><img
+                    src="./images/open-in-new.svg"
+                    alt="Link to to do list Website. Opens in New Tab"
+                    class="miniIcon"
+                /></a>
+              </div>
+            </div>
+            <div>
+              <p class="projectInfo">Built using HTML, CSS, and JS.</p>
+              <p class="projectInfo">
+                A place to keep and organize to do list items. It uses local
+                storage so retrive the clients lists on load.
+              </p>
+            </div>
+          </div>
+        </div>
 
-      <div class="projectTile">
-        <img src="./images/battleship.png" alt="" class="tileImage" />
-        <h3 class="subTitle">battleship</h3>
-        <a href="https://github.com/csnova/battleship" target="_blank"
-          ><img
-            src="./images/github-original.svg"
-            alt="Link to Battleship Github. Opens in New Tab"
-            class="miniIcon"
-        /></a>
-        <a href="https://csnova.github.io/battleship/" target="_blank"
-          ><img
-            src="./images/open-in-new.svg"
-            alt="Link to Battleship Website. Opens in New Tab"
-            class="miniIcon"
-        /></a>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          ac ante vel lectus mollis gravida. Phasellus eu ex vel orci tristique
-          pretium vel placerat quam.
-        </p>
-      </div>
+        <div class="projectTile">
+          <img src="./images/battleship.png" alt="" class="tileImage" />
+          <div class="tileInfo">
+            <div class="tileBar">
+              <h3 class="subTitle">Battleship</h3>
+              <div class="iconBar">
+                <a href="https://github.com/csnova/battleship" target="_blank"
+                  ><img
+                    src="./images/github-original.svg"
+                    alt="Link to Battleship Github. Opens in New Tab"
+                    class="miniIcon"
+                /></a>
+                <a href="https://csnova.github.io/battleship/" target="_blank"
+                  ><img
+                    src="./images/open-in-new.svg"
+                    alt="Link to Battleship Website. Opens in New Tab"
+                    class="miniIcon"
+                /></a>
+              </div>
+            </div>
+            <div>
+              <p class="projectInfo">Built using HTML, CSS, and JS.</p>
+              <p class="projectInfo">
+                Play battleship against the computer! Place your ships on your
+                board and see if you can sink your enemies ship first!
+              </p>
+            </div>
+          </div>
+        </div>
 
-      <div class="projectTile">
-        <img src="./images/battleship.png" alt="" class="tileImage" />
-        <h3 class="subTitle">battleship</h3>
-        <a href="https://github.com/csnova/battleship" target="_blank"
-          ><img
-            src="./images/github-original.svg"
-            alt="Link to Battleship Github. Opens in New Tab"
-            class="miniIcon"
-        /></a>
-        <a href="https://csnova.github.io/battleship/" target="_blank"
-          ><img
-            src="./images/open-in-new.svg"
-            alt="Link to Battleship Website. Opens in New Tab"
-            class="miniIcon"
-        /></a>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          ac ante vel lectus mollis gravida. Phasellus eu ex vel orci tristique
-          pretium vel placerat quam.
-        </p>
-      </div>
+        <div class="projectTile">
+          <img src="./images/weather.png" alt="" class="tileImage" />
+          <div class="tileInfo">
+            <div class="tileBar">
+              <h3 class="subTitle">Weather App</h3>
+              <div class="iconBar">
+                <a href="https://github.com/csnova/weatherApp" target="_blank"
+                  ><img
+                    src="./images/github-original.svg"
+                    alt="Link to Weather Github. Opens in New Tab"
+                    class="miniIcon"
+                /></a>
+                <a href="https://csnova.github.io/weatherApp/" target="_blank"
+                  ><img
+                    src="./images/open-in-new.svg"
+                    alt="Link to Weather Website. Opens in New Tab"
+                    class="miniIcon"
+                /></a>
+              </div>
+            </div>
+            <div>
+              <p class="projectInfo">Built using HTML, CSS, and JS.</p>
+              <p class="projectInfo">
+                This app can take your current location or a searched location
+                to update the weather. Updates from a weather API.
+              </p>
+            </div>
+          </div>
+        </div>
 
-      <div class="projectTile">
-        <img src="./images/battleship.png" alt="" class="tileImage" />
-        <h3 class="subTitle">battleship</h3>
-        <a href="https://github.com/csnova/battleship" target="_blank"
-          ><img
-            src="./images/github-original.svg"
-            alt="Link to Battleship Github. Opens in New Tab"
-            class="miniIcon"
-        /></a>
-        <a href="https://csnova.github.io/battleship/" target="_blank"
-          ><img
-            src="./images/open-in-new.svg"
-            alt="Link to Battleship Website. Opens in New Tab"
-            class="miniIcon"
-        /></a>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          ac ante vel lectus mollis gravida. Phasellus eu ex vel orci tristique
-          pretium vel placerat quam.
-        </p>
-      </div>
+        <div class="projectTile">
+          <img src="./images/EtchASketch.png" alt="" class="tileImage" />
+          <div class="tileInfo">
+            <div class="tileBar">
+              <h3 class="subTitle">Etch-A-Sketch</h3>
+              <div class="iconBar">
+                <a
+                  href="https://github.com/csnova/Etch-a-Sketch"
+                  target="_blank"
+                  ><img
+                    src="./images/github-original.svg"
+                    alt="Link to Etch-A-Sketch Github. Opens in New Tab"
+                    class="miniIcon"
+                /></a>
+                <a
+                  href="https://csnova.github.io/Etch-a-Sketch/"
+                  target="_blank"
+                  ><img
+                    src="./images/open-in-new.svg"
+                    alt="Link to Etch-A-Sketch Website. Opens in New Tab"
+                    class="miniIcon"
+                /></a>
+              </div>
+            </div>
+            <div>
+              <p class="projectInfo">Built using HTML, CSS, and JS.</p>
+              <p class="projectInfo">
+                A simple drawing site. Choose the grid size and then draw your
+                mouse over the screen leaving a fun colored trail!
+              </p>
+            </div>
+          </div>
+        </div>
 
-      <div class="projectTile">
-        <img src="./images/battleship.png" alt="" class="tileImage" />
-        <h3 class="subTitle">battleship</h3>
-        <a href="https://github.com/csnova/battleship" target="_blank"
-          ><img
-            src="./images/github-original.svg"
-            alt="Link to Battleship Github. Opens in New Tab"
-            class="miniIcon"
-        /></a>
-        <a href="https://csnova.github.io/battleship/" target="_blank"
-          ><img
-            src="./images/open-in-new.svg"
-            alt="Link to Battleship Website. Opens in New Tab"
-            class="miniIcon"
-        /></a>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          ac ante vel lectus mollis gravida. Phasellus eu ex vel orci tristique
-          pretium vel placerat quam.
-        </p>
-      </div>
+        <div class="projectTile">
+          <img src="./images/adminLogin.png" alt="" class="tileImage" />
+          <div class="tileInfo">
+            <div class="tileBar">
+              <h3 class="subTitle">Admin Dashboard</h3>
+              <div class="iconBar">
+                <a
+                  href="https://github.com/csnova/adminDashboard"
+                  target="_blank"
+                  ><img
+                    src="./images/github-original.svg"
+                    alt="Link to Admin Dashboard Github. Opens in New Tab"
+                    class="miniIcon"
+                /></a>
+                <a
+                  href="https://csnova.github.io/adminDashboard/"
+                  target="_blank"
+                  ><img
+                    src="./images/open-in-new.svg"
+                    alt="Link to Admin Dashboard Website. Opens in New Tab"
+                    class="miniIcon"
+                /></a>
+              </div>
+            </div>
+            <div>
+              <p class="projectInfo">Built using HTML and CSS.</p>
+              <p class="projectInfo">
+                This is just a template site to show use of grid and flexbox to
+                create an admin landing page.
+              </p>
+            </div>
+          </div>
+        </div>
 
-      <div class="projectTile">
-        <img src="./images/battleship.png" alt="" class="tileImage" />
-        <h3 class="subTitle">battleship</h3>
-        <a href="https://github.com/csnova/battleship" target="_blank"
-          ><img
-            src="./images/github-original.svg"
-            alt="Link to Battleship Github. Opens in New Tab"
-            class="miniIcon"
-        /></a>
-        <a href="https://csnova.github.io/battleship/" target="_blank"
-          ><img
-            src="./images/open-in-new.svg"
-            alt="Link to Battleship Website. Opens in New Tab"
-            class="miniIcon"
-        /></a>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          ac ante vel lectus mollis gravida. Phasellus eu ex vel orci tristique
-          pretium vel placerat quam.
-        </p>
+        <div class="projectTile">
+          <img src="./images/calculator.png" alt="" class="tileImage" />
+          <div class="tileInfo">
+            <div class="tileBar">
+              <h3 class="subTitle">Calculator</h3>
+              <div class="iconBar">
+                <a href="https://github.com/csnova/calculator" target="_blank"
+                  ><img
+                    src="./images/github-original.svg"
+                    alt="Link to Calculator Github. Opens in New Tab"
+                    class="miniIcon"
+                /></a>
+                <a href="https://csnova.github.io/calculator/" target="_blank"
+                  ><img
+                    src="./images/open-in-new.svg"
+                    alt="Link to Calculator Website. Opens in New Tab"
+                    class="miniIcon"
+                /></a>
+              </div>
+            </div>
+            <div>
+              <p class="projectInfo">Built using HTML, CSS, and JS.</p>
+              <p class="projectInfo">
+                This is basic onscreen calculator. It has basick functionality
+                including additon, subtraction, multiplication, and divison.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
     <footer>
-      <h2 class="title">Contact Me</h2>
-      <p>
-        Please contact me if you think our work could be mutually benifical!
-      </p>
+      <div class="contactBox">
+        <h2 class="title">Contact Me</h2>
+        <p>
+          Please contact me if you think our work could be mutually benifical!
+        </p>
 
-      <div>
-        <img src="./images/email.svg" alt="Email icon" class="contactIcon" />
-        <p>chandlersnova@gmail.com</p>
+        <div class="contactInfo">
+          <img src="./images/email.svg" alt="Email icon" class="contactIcon" />
+          <p>chandlersnova@gmail.com</p>
+        </div>
+        <div class="contactInfo">
+          <img src="./images/phone.svg" alt="Phone icon" class="contactIcon" />
+          <p>(360) 830-6435</p>
+        </div>
+        <div class="contactIconBar">
+          <a href="https://github.com/csnova" target="_blank"
+            ><img
+              src="./images/github-original.svg"
+              alt="Link to Github. Opens in New Tab"
+              class="icon"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/chandler-nova-288655298/"
+            target="_blank"
+            ><img
+              src="./images/linkedin-plain.svg"
+              alt="Link to Linkedin. Opens in New Tab"
+              class="icon"
+          /></a>
+        </div>
       </div>
-      <div>
-        <img src="./images/phone.svg" alt="Phone icon" class="contactIcon" />
-        <p>(360) 830-6435</p>
-      </div>
-      <a href="https://github.com/csnova" target="_blank"
-        ><img
-          src="./images/github-original.svg"
-          alt="Link to Github. Opens in New Tab"
-          class="icon"
-      /></a>
-      <a
-        href="https://www.linkedin.com/in/chandler-nova-288655298/"
-        target="_blank"
-        ><img
-          src="./images/linkedin-plain.svg"
-          alt="Link to Linkedin. Opens in New Tab"
-          class="icon"
-      /></a>
+      <img
+        src="./images/pexels-thisisengineering-3861963.jpg"
+        alt="placeholder image"
+        class="profilePicture"
+      />
     </footer>
   </body>
 </html>
