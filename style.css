@@ -1,6 +1,5 @@
 :root {
   --outline-color: #808080;
-  --header-background: #3bbeb4;
   --main-background: #daf5f3;
   --footer-background: #3bbeb4;
   --screen-background: #ffffff;
@@ -26,7 +25,9 @@ header {
   display: flex;
   flex-direction: row;
   padding: 20px;
-  background-color: var(--header-background);
+  background-image: url(./images/background-20.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .profilePicture {
@@ -36,6 +37,7 @@ header {
 }
 
 .title {
+  margin: 0px;
   margin-left: 15px;
 }
 
@@ -210,6 +212,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(./images/background-17.png);
+    background-repeat: no-repeat;
   }
 
   footer {
